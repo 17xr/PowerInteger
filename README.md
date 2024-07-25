@@ -1,2 +1,3 @@
-# PowerInteger
-C++ Header for Computing Powers of Big Integers Using GNU MP Bignum Library
+- A C++ header based on [GMP Library](https://gmplib.org/) to compute the power of big integers.
+- Include the **power_intege** header in your C++ source file.
+- Use the **pow_int(int base, int exponent)** funtion to calcute **base ^ exponent** and return the result as **std::optional<<std::string>>**.
